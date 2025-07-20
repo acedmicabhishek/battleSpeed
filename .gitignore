@@ -1,0 +1,60 @@
+# Build output and intermediate files
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# VS / Xcode project files (regenerate these as needed)
+.vscode/
+*.code-workspace
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.xcodeproj
+*.xcworkspace
+
+# Backup and autosave
+*.tmp
+*.bak
+*.orig
+*.swp
+*.log
+*.tlog
+
+# Compiled files
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+*.app
+*.dylib
+*.ipa
+*.class
+*.jar
+
+# Mac-specific
+.DS_Store
+
+# Windows-specific
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Unreal plugins (optional)
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# Optional: Ignore config if you don’t want local dev config differences
+# Config/DefaultEditor.ini
+# Config/DefaultEngine.ini
+# Config/DefaultGame.ini
+
+# Git LFS tracked files (example)
+# These are tracked, not ignored!
+# !*.uasset
+# !*.umap
